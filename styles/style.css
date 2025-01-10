@@ -312,6 +312,59 @@ nav {
 }
 /* =========== Opinion CSS End ========== */
 
+/* =========== Recent News CSS Start ========== */
+#recent-news {
+  padding-bottom: 80px;
+}
+#recent-news h2 {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+#recent-news p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.news-box {
+  margin-top: 24px;
+  display: flex;
+  gap: 32px;
+  border-radius: 24px;
+  background: #fff;
+  padding: 48px;
+}
+.news-box:first-of-type {
+  margin-top: 32px;
+}
+.news-box .satelite-img {
+  border-radius: 24px;
+  width: 408px;
+  height: 306px;
+}
+.news-box h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.news-box p {
+  margin: 12px 0;
+}
+.news-box button {
+  margin: 20px 0 0 0;
+  padding: 13px 26px;
+}
+.news-box button:hover {
+  background: #018866;
+  padding: 13px 26px;
+}
+/* =========== Recent News CSS End ========== */
+
+/* =========== Header CSS Start ========== */
+/* =========== Header CSS End ========== */
 /* =========== Header CSS Start ========== */
 /* =========== Header CSS End ========== */
 /* =========== Header CSS Start ========== */
