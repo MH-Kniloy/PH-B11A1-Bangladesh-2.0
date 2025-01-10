@@ -70,7 +70,7 @@ nav {
   transform: scale(0.98);
 }
 #banner {
-  padding: 20px 0 80px 0;
+  padding: 20px 0 0 0;
 }
 .banner-container {
   border-radius: 24px;
@@ -98,5 +98,129 @@ nav {
 
 /* =========== Header CSS End ========== */
 
+/* =========== Pillar CSS Start ========== */
+#pillar {
+  padding: 80px 0;
+}
+#pillar h2 {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+.pillar-card-container {
+  display: flex;
+  justify-content: space-between;
+}
+.pillar-card-box {
+  padding: 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  width: 302px;
+}
+.pillar-card-box img {
+  margin-bottom: 24px;
+}
+.pillar-card-box h4 {
+  margin-bottom: 12px;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+}
+.pillar-card-box p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+/* =========== Pillar CSS End ========== */
+
+/* =========== Vision CSS Start ========== */
+#vision {
+  padding: 0 0 80px 0;
+}
+#vision h2 {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+#vision .vision-text {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+.vision-card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.vision-card-box {
+  padding: 32px;
+  border-radius: 16px;
+  background: rgba(84, 144, 245, 0.2);
+  width: 410px;
+  height: 325px;
+}
+.vision-card-box:nth-of-type(2) {
+  background:#C6E4D6;
+}
+.vision-card-box:last-of-type {
+  background:#F7EBCF;
+}
+.vision-card-box img {
+  margin-bottom: 24px;
+}
+.vision-card-box h4 {
+  margin-bottom: 12px;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+}
+.vision-card-box p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.vision-card-box:nth-of-type(2)  p {
+  margin-bottom: 48px;
+}
+.vision-card-box button {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #5490f5;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+.vision-card-box:first-of-type button:hover {
+  background-color: #3365ba;
+}
+.vision-card-box:nth-of-type(2) button {
+  background-color: #09A15C;
+  transition: all 0.4s ease-in-out;
+}
+.vision-card-box:nth-of-type(2) button:hover {
+  background-color: #076e3f;
+}
+.vision-card-box:last-of-type button {
+  background-color: #FFC239;
+  transition: all 0.4s ease-in-out;
+}
+.vision-card-box:last-of-type button:hover {
+  background-color: #ba8f2a;
+}
+/* =========== Vision CSS End ========== */
+
+/* =========== Header CSS Start ========== */
+/* =========== Header CSS End ========== */
 /* =========== Header CSS Start ========== */
 /* =========== Header CSS End ========== */
