@@ -484,5 +484,21 @@ nav {
   padding: 17px 34px;
 }
 /* =========== Newsletter CSS End ========== */
-/* =========== Header CSS Start ========== */
-/* =========== Header CSS End ========== */
+/* =========== Footer CSS Start ========== */
+footer {
+  background: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+footer h2 {
+  color: #0e0e0e;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 64px;
+}
+.socials {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+/* =========== Footer CSS End ========== */
