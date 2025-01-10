@@ -422,15 +422,67 @@ nav {
   font-size: 20px;
   font-weight: 400;
 }
-#donate button{
-    margin-top: 32px;
+#donate button {
+  margin-top: 32px;
 }
-#donate button:hover{
-    padding: 17px 34px;
+#donate button:hover {
+  padding: 17px 34px;
 }
 /* =========== Donate CSS End ========== */
 
-/* =========== Header CSS Start ========== */
-/* =========== Header CSS End ========== */
+/* =========== Newsletter CSS Start ========== */
+#newsletter {
+  padding: 80px 0;
+}
+.newsletter-container {
+  text-align: center;
+  padding: 80px 100px;
+  border-radius: 24px;
+  background: #c6e4d6;
+}
+.newsletter-container h2 {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.newsletter-container p {
+  width: 622px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 auto;
+}
+.subscribe {
+  margin: 24px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subscribe input {
+  width: 600px;
+  padding: 18px 40px;
+  border-radius: 8px 0px 0px 8px;
+  border: none;
+  outline: none;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 18px;
+  font-weight: 500;
+}
+.subscribe input::placeholder {
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 16px;
+  font-weight: 400;
+}
+.subscribe button {
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 0px 8px 8px 0px;
+}
+.subscribe button:hover {
+  padding: 17px 34px;
+}
+/* =========== Newsletter CSS End ========== */
 /* =========== Header CSS Start ========== */
 /* =========== Header CSS End ========== */
