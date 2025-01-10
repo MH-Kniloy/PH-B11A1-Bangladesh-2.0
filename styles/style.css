@@ -138,7 +138,7 @@ nav {
 
 /* =========== Vision CSS Start ========== */
 #vision {
-  padding: 0 0 80px 0;
+  padding: 0 0 32px 0;
 }
 #vision h2 {
   color: #0e0e0e;
@@ -166,10 +166,10 @@ nav {
   height: 325px;
 }
 .vision-card-box:nth-of-type(2) {
-  background:#C6E4D6;
+  background: #c6e4d6;
 }
 .vision-card-box:last-of-type {
-  background:#F7EBCF;
+  background: #f7ebcf;
 }
 .vision-card-box img {
   margin-bottom: 24px;
@@ -187,7 +187,7 @@ nav {
   line-height: 24px;
   margin-bottom: 24px;
 }
-.vision-card-box:nth-of-type(2)  p {
+.vision-card-box:nth-of-type(2) p {
   margin-bottom: 48px;
 }
 .vision-card-box button {
@@ -205,20 +205,112 @@ nav {
   background-color: #3365ba;
 }
 .vision-card-box:nth-of-type(2) button {
-  background-color: #09A15C;
+  background-color: #09a15c;
   transition: all 0.4s ease-in-out;
 }
 .vision-card-box:nth-of-type(2) button:hover {
   background-color: #076e3f;
 }
 .vision-card-box:last-of-type button {
-  background-color: #FFC239;
+  background-color: #ffc239;
   transition: all 0.4s ease-in-out;
 }
 .vision-card-box:last-of-type button:hover {
   background-color: #ba8f2a;
 }
 /* =========== Vision CSS End ========== */
+
+/* =========== Quote CSS Start ========== */
+#quote {
+  padding-bottom: 80px;
+}
+.quote-container {
+  padding: 48px 24px;
+  position: relative;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+}
+.quote-container img {
+  position: absolute;
+  top: 23px;
+}
+.quote-container p {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.quote-container h4 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+/* =========== Quote CSS End ========== */
+
+/* =========== Opinion CSS Start ========== */
+#opinion {
+  padding-bottom: 80px;
+}
+.opinion-container h2 {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.questions {
+  border-radius: 16px;
+  background: #fff;
+  padding: 32px;
+}
+.questions table {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-collapse: collapse;
+  width: 1216px;
+}
+.questions table thead {
+  background: #c6e4d6;
+}
+.questions table thead td {
+  color: #0e0e0e;
+  font-size: 20px;
+  font-weight: 600;
+}
+.questions table thead td:last-of-type {
+  text-align: center;
+}
+
+.questions table thead td {
+  padding: 24px;
+}
+.questions table tbody tr td {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 24px;
+  color: #0e0e0e;
+  font-size: 16px;
+  font-weight: 600;
+}
+.questions table tbody tr td:last-of-type {
+  text-align: center;
+}
+.questions table tbody tr td select {
+  padding: 10px 14px;
+  border-radius: 4px;
+  border: 1px solid #0e0e0e;
+  background: #c6e4d6;
+  color: #0e0e0e;
+  font-size: 16px;
+  font-weight: 500;
+}
+.questions table tbody tr td select option {
+  color: #0e0e0e;
+  font-size: 16px;
+  font-weight: 500;
+}
+/* =========== Opinion CSS End ========== */
 
 /* =========== Header CSS Start ========== */
 /* =========== Header CSS End ========== */
