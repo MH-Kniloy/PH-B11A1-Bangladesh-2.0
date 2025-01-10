@@ -363,8 +363,73 @@ nav {
 }
 /* =========== Recent News CSS End ========== */
 
-/* =========== Header CSS Start ========== */
-/* =========== Header CSS End ========== */
+/* =========== Donate CSS Start ========== */
+#donate {
+  text-align: center;
+}
+#donate h2 {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+#donate p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 1104px;
+  margin: 0 auto;
+}
+.amount-container {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin: 32px 0;
+}
+.amount {
+  padding: 40px;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: 700;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  transition: all 0.7s ease-in-out;
+}
+.amount:nth-of-type(2) {
+  background: #c6e4d6;
+}
+.amount:hover {
+  background: #c6e4d6;
+}
+#donate input {
+  display: block;
+  margin: 0 auto;
+  width: 1180px;
+  border: none;
+  outline: none;
+  background: #fff;
+  padding: 20px 40px;
+  text-align: center;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+}
+#donate input::placeholder {
+  text-align: center;
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 20px;
+  font-weight: 400;
+}
+#donate button{
+    margin-top: 32px;
+}
+#donate button:hover{
+    padding: 17px 34px;
+}
+/* =========== Donate CSS End ========== */
+
 /* =========== Header CSS Start ========== */
 /* =========== Header CSS End ========== */
 /* =========== Header CSS Start ========== */
