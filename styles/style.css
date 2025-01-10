@@ -164,12 +164,22 @@ nav {
   background: rgba(84, 144, 245, 0.2);
   width: 410px;
   height: 325px;
+  transition: all 0.4s ease-in;
+}
+.vision-card-box:hover {
+  background: rgba(84, 144, 245, 0.5);
 }
 .vision-card-box:nth-of-type(2) {
   background: #c6e4d6;
 }
+.vision-card-box:nth-of-type(2):hover {
+  background: #8bd0b1;
+}
 .vision-card-box:last-of-type {
   background: #f7ebcf;
+}
+.vision-card-box:last-of-type:hover {
+  background: #ecd296;
 }
 .vision-card-box img {
   margin-bottom: 24px;
@@ -353,6 +363,9 @@ nav {
 .news-box p {
   margin: 12px 0;
 }
+.news-box span {
+  padding-left: 12px;
+}
 .news-box button {
   margin: 20px 0 0 0;
   padding: 13px 26px;
@@ -396,6 +409,7 @@ nav {
   border: 1px solid rgba(14, 14, 14, 0.15);
   background: #fff;
   transition: all 0.7s ease-in-out;
+  cursor: pointer;
 }
 .amount:nth-of-type(2) {
   background: #c6e4d6;
